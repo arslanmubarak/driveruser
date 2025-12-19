@@ -5,7 +5,7 @@ import '../features/language/domain/models/language_listing_model.dart';
 
 class AppConstants {
   static const String title = 'GoMuza';
-  static const String baseUrl = 'https://ride.muzaitechsols.space';
+  static const String baseUrl = 'https://ridego.muzaitechsols.space';
 
   /// 🔥 Firebase Keys
   static String firebaseApiKey = Platform.isAndroid
