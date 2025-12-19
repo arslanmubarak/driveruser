@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "329276286714",
+    "project_id": "gomuza-940f4",
+    "storage_bucket": "gomuza-940f4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329276286714:android:f53c025cfd2bddce5a4b43",
+        "android_client_info": {
+          "package_name": "space.muzaitechsols.ride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbJHKXYuD0B1EWDIzGwnBqu8Ped0JXj7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
