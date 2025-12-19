@@ -27,7 +27,7 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "space.muzaitechsols.ride"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -41,9 +41,9 @@ android {
     }
 
     defaultConfig {
-        applicationId = "package name here"
+        applicationId = "space.muzaitechsols.ride" // update with your real package name
         minSdk = flutter.minSdkVersion
-        targetSdk = 35
+        targetSdk = 36
         versionCode = flutterVersionCode
         versionName = flutterVersionName
         multiDexEnabled = true
@@ -60,7 +60,7 @@ android {
 
     buildTypes {
         release {
-            signingConfig = signingConfigs.getByName("release");
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android.txt"),
                 "proguard-rules.pro"
